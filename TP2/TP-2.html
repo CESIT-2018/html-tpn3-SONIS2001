@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tp2-4 paginas</title>
+    <style src="C:\Users\Sonia\Documents\3 AÑO\PROGRAMACION3\TP2\CSS\Estilo.css"> </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="Estilo.css"></script>
+    <script type="text/javascript">
+     
+        function cambiaFondo(x) {
+        var body = document.getElementById("body");
+        body.style.backgroundColor = x.value
+        
+        }
+    </script>
+
+</head>
+
+<body id="body">
+      
+    <script>
+        alert('Hola a todos!');
+    </script>
+    
+    <h5>CAMBIA AQUI EL COLOR DE FONDO</h5>
+    <select name="fondo" id="fondo" onchange="cambiaFondo(this)">  
+        <option value="red">Rojo</option>
+        <option value="blue">Azul</option>
+        <option value="yellow">Amarillo</option>
+        <option value="white">Blanco</option>
+    </select>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="tp2-perfil.html">PERFIL</a>
+                </li>
+                <li>
+                    <a href="tp2-servicios.html">SERVICIOS</a>
+                </li>
+                <li>
+                    <a href="tp2-productos.html">PRODUCTOS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>BIENVENIDOS A MI PAGINA WEB</h1>
+    <h2> Servicio de alquiler de disfraces</h2>
+   
+    <thead>
+        <img src="disfraces-familia.jpg" alt="bienvenida">
+
+    </thead>
+    <hr />
+    <a href="tp2-perfil.html">Ir a la página perfil</a>
+    <br />
+    <a href="tp2-servicios.html">Ir a la página Servicios</a>
+    <br />
+    <a href="tp2-productos.html">Ir a la página Productos</a>
+</body>
+
+</html>
