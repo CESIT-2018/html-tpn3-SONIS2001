@@ -7,52 +7,55 @@
     <title>tp2-productos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="C:\Users\Sonia\Documents\3 AÑO\PROGRAMACION3\html-tpn3-SONIS2001\TP2\CSS\bootstrap.min.css" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 
 <body>
 
     <h1>NUESTROS PRODUCTOS</h1>
-
-    <table>
+    <table class="table table-striped">
         <thead>
-            <th>PRODUCTO</th>
-            <th>CATEGORIA</th>
-            <th>TALLE</th>
-            <th>STOCK</th>
-            <th>PRECIO POR DIA</th>
+          <tr>
+            <th scope="col">PRODUCTO</th>
+            <th scope="col">CATEGORIA</th>
+            <th scope="col">TALLE</th>
+            <th scope="col">STOCK</th>
+            <th scope="col">PRECIO POR DIA</th>
+          </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>TRAJE SUPERMAN</td>
-                <td>NIÑO</td>
-                <td>4 A 14</td>
-                <td>**5**</td>
-                <td>$ 250</td>
-            </tr>
-            <tr>
-                <td>TRAJE SUPERMAN</td>
-                <td>ADULTO</td>
-                <td>M - XL</td>
-                <td>**1 ** </td>
-                <td>$ 350</td>
-            </tr>
-            <tr>
-                <td>TRAJE MUJER MARAVILLA</td>
-                <td>NIÑA</td>
-                <td>4 A 14</td>
-                <td>**4**</td>
-                <td>$ 250</td>
-            </tr>
-            <tr>
-                <td>TRAJE MUJER MARAVILLA</td>
-                <td>ADULTO</td>
-                <td>M - XL</td>
-                <td>**2**</td>
-                <td>$ 250</td>
-            </tr>
-        </tbody>
-    </table>
+          <tr>
+            <th scope="row">TRAJE SUPERMAN</th>
+            <td>NIÑO</td>
+            <td>4 A 14</td>
+            <td>**5**</td>
+            <td>$ 250</td>
+          </tr>
+          <tr>
+            <th scope="row">TRAJE SUPERMAN</th>
+            <td>ADULTO</td>
+            <td>M - XL</td>
+            <td>** 1 **</td>
+            <td>$ 340</td>
+          </tr>
+          <tr>
+            <th scope="row">TRAJE MUJER MARAVILLA</th>
+            <td>NIÑA</td>
+            <td>4 A 14</td>
+            <td>** 4 **</td>
+            <td>$ 250</td>
+          </tr>
+          <tr>
+            <th scope="row">TRAJE MUJER MARAVILLA</th>
+            <td>ADULTO</td>
+            <td>M A XL</td>
+            <td>** 2 **</td>
+            <td>$ 340</td>
+          </tr>
+        
+      </table>
+   
     <img src="disfraces.jpg" alt="disfraz">
     <img src="disfraz-niños.jpg" alt="niños">
     <img src="disfraz-adulto original.jpg" alt="disfraz_adulto">
