@@ -13,4 +13,4 @@ app.get("/",(req,res)=>{
 })
 app.use(express.static("public"));
 
-app.listen (PORT,()=>console.info("INICIANDO EN "+PORT+"YES"));
+app.listen (PORT,()=>console.info("INICIANDO EN "+PORT));
